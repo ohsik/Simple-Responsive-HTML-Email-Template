@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Simple Responsive HTML Email Template</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<style>
+    *{
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;   
+    }
+    html,body{
+        background: #dddddd;
+        font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+    }
+    img{
+        max-width: 100%;    
+    }
+    /* This is what it makes reponsive. Double check before you use it! */
+    @media only screen and (max-width: 480px){ 
+        table tr td{
+            width: 100% !important;    
+            float: left;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<center> <!-- Let's Center it. just in case email client does not support margin: 0 auto -->
+
+<!-- ** Top Message
+----------------------------------->
+<p>
+    <font size="2" color="666666">If you can't see this message <a href="#" target="_blank">View it in your browser</a>.</font>
+</p>
+
+
+<!-- ** Table begins here
+----------------------------------->
+<!-- Set table width to fixed width for Outlook(Outlook does not support max-width) -->
+<table width="100%" cellpadding="20" cellspacing="0" bgcolor="FFFFFF" style="max-width: 600px !important; margin: 0 auto;">
+    <tr>
+        <td align="center"><h1>LOGO</h1></td>
+    </tr> <!--close tr-->
+    
+    
+    <tr bgcolor="42A800">
+        <td align="center">
+            <font color="FFFFFF">
+            A Simple HTML Email Template
+            <h1>Simple code & it's responsive</h1>
+            </font>
+        </td>
+    </tr> <!--close tr-->
+    
+    
+    <tr>
+        <td align="center">
+            
+            <a href="tel:8888888888"> <!-- Phone number link on table -->
+                <table bgcolor="42A800" cellpadding="10" style="border-radius: 10px; -moz-border-radius: 10px;">
+                    <tr><td><font color="FFFFFF">Call Us (888) 888-8888</font></td></tr>
+                </table>
+            </a>
+            
+        </td>
+    </tr> <!--close tr-->
+    
+    
+    <tr>
+        <td align="center">
+            <font size="5">100% width table</font>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat, leo id facilisis facilisis, eget ultrices augue erat id tellus.</p>
+        </td>
+    </tr> <!--close tr-->
+    
+    
+    <tr>
+        <td>
+            <img src="http://www.ohsikpark.com/samples/email/sf.jpg" />
+        </td>
+    </tr> <!--close tr-->
+    
+    
+    <tr>
+        <td>
+            <!-- ** 30% and 70%
+            ----------------------------------->
+            <table border="0" cellpadding="10">
+                <tr>
+                    <td width="30%" style="width: 30%;">
+                        <img src="http://www.ohsikpark.com/samples/email/profile.jpg" />
+                    </td>
+                    <td width="70%" style="width: 70%;">
+                        <h3>Say Something | 70% width</h3>
+                        <p>Etiam placerat, leo id facilisis facilisis, sem tortor efficitur velit, eget ultrices augue erat id tellus.</p>
+                        <font color="666666" size="2">Small Font Sample</font>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr> <!--close tr-->
+
+
+    <tr>
+        <td bgcolor="2B2E34">
+        
+            <!-- ** 50% and 50%
+            ----------------------------------->
+            <table border="0" cellpadding="10" cellspacing="0" a>
+                <tr>
+                    <td width="50%" style="width: 50%;" valign="top">
+                        <font color="ffffff">
+                        <h2>About us</h2>
+                        </font>
+                        <font color="ffffff" size="2">
+                        <p>Nam porta tellus sit amet lacus efficitur iaculis. Vestibulum massa orci, accumsan at mollis molestie, condimentum sed tortor. Duis dolor risus, sagittis vitae orci sit amet, sodales tristique risus.</p>
+                        </font>
+                    </td>
+                    <td width="50%" style="width: 50%;" valign="top">
+                        <font color="ffffff">
+                        <h2>Contact us</h2>
+                        </font>
+                        <!-- ** Footer contact
+                        ----------------------------------->
+                        <table border="0">
+                            <tr><td><font color="ffffff" size="2">Call: (888) 888-8888</font></td></tr>
+                            <tr><td><font color="ffffff" size="2">email: sample@email.com</font></td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            
+        </td>
+    </tr> <!--close tr-->
+
+
+</table>
+
+
+<!-- ** Bottom Message
+----------------------------------->
+<p>
+    <font size="2" color="666666">Copyright © 2015. All&nbsp;rights&nbsp;reserved.<br />
+    If you do not want to recieve emails from us, you can <a href="#" target="_blank">unsubscribe</a>.</font>
+</p>
+
+</center>
+
+
+</body>
+</html>
