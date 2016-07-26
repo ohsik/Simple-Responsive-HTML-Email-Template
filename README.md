@@ -1,6 +1,10 @@
-# Simple-Responsive-HTML-Email-Template
+# Simple Responsive HTML Email Template
+A simple HTML email template to help you build your own HTML emails.
 
-Simple Responsive HTML Email Template. Simple HMTL table code.
+[[See Demo]](http://ohsik.github.io/Simple-Responsive-HTML-Email-Template/email.html)
 
-Lincense
+## How to use?
+Simply copy and paste entire code from `email.html` and swap the content.
+
+###Lincense
 WTFPL - http://www.wtfpl.net/
